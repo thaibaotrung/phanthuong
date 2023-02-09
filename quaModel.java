@@ -8,17 +8,17 @@ package bai5cnpm;
  *
  * @author oOOo
  */
-public class quaService {
+public class quaModel {
     private int id;
     private String hoTen;
     private int tuoi;
     private String tenqua;
     private int giatien;
 
-    public quaService() {
+    public quaModel() {
     }
 
-    public quaService(int id, String hoTen, int tuoi, String tenqua, int giatien) {
+    public quaModel(int id, String hoTen, int tuoi, String tenqua, int giatien) {
         this.id = id;
         this.hoTen = hoTen;
         this.tuoi = tuoi;
